@@ -1,0 +1,113 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  margin: 0px;
+  color: white;
+  font-family: cursive;
+}
+
+h3 {
+  text-align: center;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #698f90;
+}
+
+.search-bar {
+  /* flex-grow: 2; */
+  padding: 8px;
+  width: 350px;
+  font-family: cursive;
+  border: solid 1px white;
+  border-radius: 5px;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.cards {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  color: #578283;
+  background-color: rgb(240, 238, 238);
+  border: 2px solid #578283;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  font-family: cursive;
+  box-shadow: 0 12px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#doctor-card:hover {
+  /* Hover effects only for the Drugs card */
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#drugs-card:hover {
+  /* Hover effects only for the Drugs card */
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#sales-card:hover {
+  /* Hover effects only for the Drugs card */
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#patient-card:hover {
+  /* Hover effects only for the Drugs card */
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#employee-card:hover {
+  /* Hover effects only for the Drugs card */
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#manufacturer-card:hover {
+  /* Hover effects only for the Drugs card */
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.add-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 25px;
+  font-size: 18px;
+  color: white;
+  background-color: #0a66c2;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}

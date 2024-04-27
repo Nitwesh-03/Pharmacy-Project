@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Pharmacy Management System</title>
+    <link rel="stylesheet" href="log-in.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <form class="login-form">
+        <h1 class="brand-logo">Pharma & CO</h1>
+        <div class="input-group">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email or Phone"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <button
+            type="button"
+            class="login-button"
+            onclick="window.location.href='/MyApp/Dashboard/index.html'"
+          >
+            Sign in
+          </button>
+        </div>
+        <div class="additional-options">
+          <a href="#" class="forgot-password">Forgot password?</a>
+          <p class="separator">or</p>
+          <a href="#" class="external-login apple-login">Sign in with Apple</a>
+        </div>
+        <div class="signup-prompt">
+          New to Pharmacy? <a href="#" class="sign-up">Join now</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
